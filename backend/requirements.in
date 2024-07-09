@@ -1,0 +1,31 @@
+# API Server
+fastapi[all]
+uvicorn[standard]
+pydantic
+pydantic-settings
+certifi
+beanie
+python-jose
+
+# Database
+motor
+dnspython
+
+# Development
+pip-tools
+black
+flake8
+
+# Testing
+pytest
+requests
+locust
+
+# Auth
+bcrypt
+passlib
+
+python-dotenv
+
+# ai
+openai

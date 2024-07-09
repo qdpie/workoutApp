@@ -1,0 +1,156 @@
+{"0": {
+    "doc": "Additional Information",
+    "title": "Additional Information",
+    "content": " ",
+    "url": "/additional.html",
+    
+    "relUrl": "/additional.html"
+  },"1": {
+    "doc": "Contact",
+    "title": "Contact",
+    "content": " ",
+    "url": "/contact.html",
+    
+    "relUrl": "/contact.html"
+  },"2": {
+    "doc": "Development",
+    "title": "Production Deploy Status",
+    "content": ". ",
+    "url": "/dev.html#production-deploy-status",
+    
+    "relUrl": "/dev.html#production-deploy-status"
+  },"3": {
+    "doc": "Development",
+    "title": "ShapeShift",
+    "content": " ",
+    "url": "/dev.html#shapeshift",
+    
+    "relUrl": "/dev.html#shapeshift"
+  },"4": {
+    "doc": "Development",
+    "title": "Project Dependencies",
+    "content": ". | Python 3.11 or newer | NodeJS 18 or newer | . ",
+    "url": "/dev.html#project-dependencies",
+    
+    "relUrl": "/dev.html#project-dependencies"
+  },"5": {
+    "doc": "Development",
+    "title": "Running the dev environment",
+    "content": " ",
+    "url": "/dev.html#running-the-dev-environment",
+    
+    "relUrl": "/dev.html#running-the-dev-environment"
+  },"6": {
+    "doc": "Development",
+    "title": "Backend",
+    "content": "Setup . **Optional: Create python virtual environment . From the \\backend directory: . python3 -m venv venv . To start the virtual environment (run every time you run the dev env) . Mac: . source venv/bin/activate . Windows: .\\venv\\Scripts\\Activate.ps1 . Install dependencies . pip install -r requirements.txt . Setup environment variables .env file should be located in backend directory . # Mongo USR=\"username\" PW=\"password\" # JWT secrets JWT_SECRET_KEY=\"key\" JWT_REFRESH_SECRET_KEY=\"key\" ALGORITHM=\"algo\" # For local dev HOST=localhost PORT=8000 OPENAI_API_KEY=\"key\" . Run the server . # check dir # cd backend python3 main.py . Navigate to http://localhost:8000 . ",
+    "url": "/dev.html#backend",
+    
+    "relUrl": "/dev.html#backend"
+  },"7": {
+    "doc": "Development",
+    "title": "Frontend",
+    "content": "Setup . Install dependencies . npm install . Run the expo app . npm run start ## You can also run directly on your machine # npm run web # npm run ios # npm run android . Scan the qr code to access the expo app on your phone . ",
+    "url": "/dev.html#frontend",
+    
+    "relUrl": "/dev.html#frontend"
+  },"8": {
+    "doc": "Development",
+    "title": "Software Architecture",
+    "content": "Database . | MongoDB . MongoDB docs . | . Backend (API’s) . | FastAPI (Python) . FastAPI docs . | Exercise API’s *** Deprecated . API Ninjas . | OpenAI API’s OpenAI Docs . | . Frontend . | React Native . React Native docs . | . ",
+    "url": "/dev.html#software-architecture",
+    
+    "relUrl": "/dev.html#software-architecture"
+  },"9": {
+    "doc": "Development",
+    "title": "Development",
+    "content": " ",
+    "url": "/dev.html",
+    
+    "relUrl": "/dev.html"
+  },"10": {
+    "doc": "FAQ's and Troubleshooting",
+    "title": "FAQ’s",
+    "content": " ",
+    "url": "/faqs.html#faqs",
+    
+    "relUrl": "/faqs.html#faqs"
+  },"11": {
+    "doc": "FAQ's and Troubleshooting",
+    "title": "Troubleshooting",
+    "content": " ",
+    "url": "/faqs.html#troubleshooting",
+    
+    "relUrl": "/faqs.html#troubleshooting"
+  },"12": {
+    "doc": "FAQ's and Troubleshooting",
+    "title": "FAQ's and Troubleshooting",
+    "content": " ",
+    "url": "/faqs.html",
+    
+    "relUrl": "/faqs.html"
+  },"13": {
+    "doc": "Glossary",
+    "title": "Glossary",
+    "content": " ",
+    "url": "/glossary.html",
+    
+    "relUrl": "/glossary.html"
+  },"14": {
+    "doc": "Introduction",
+    "title": "ShapeShift",
+    "content": "CREATED BY . JASON EDMAN | DALLIN MACKAY | QUENTIN DOUGLAS | RYAN HILLSTEAD . ",
+    "url": "/#shapeshift",
+    
+    "relUrl": "/#shapeshift"
+  },"15": {
+    "doc": "Introduction",
+    "title": "Fitness Tracking and Exercise Generator",
+    "content": "Overview . Documentation . The primary purpose for this documentation . Documentation Scope . | Installation | User Guide | FAQ’s and Troubleshooting | Contact | Glossary | Additional Information | . ",
+    "url": "/#fitness-tracking-and-exercise-generator",
+    
+    "relUrl": "/#fitness-tracking-and-exercise-generator"
+  },"16": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"17": {
+    "doc": "Installation",
+    "title": "Installation and Running the App",
+    "content": " ",
+    "url": "/installation.html#installation-and-running-the-app",
+    
+    "relUrl": "/installation.html#installation-and-running-the-app"
+  },"18": {
+    "doc": "Installation",
+    "title": "Web Version",
+    "content": "This app is created using React Native and run using Expo. This means that the app is very versatile and can run on most platforms. For the simplest use case we are hosting the app directly on the web. This is intended as a mobile app. There are no plans to implement a desktop version so it is recommended to use on your phone’s browser. Scan the QR code: . or follow this link. ",
+    "url": "/installation.html#web-version",
+    
+    "relUrl": "/installation.html#web-version"
+  },"19": {
+    "doc": "Installation",
+    "title": "Run With Expo (developer experience recommended)",
+    "content": "System Requirements . The long term goal for the app is to deploy as a mobile application. We can simulate this by running on an emulator. To run on an emulator you will need either a Mac or a Windows machine with the latest major versions installed. Software dependencies . | NodeJS 18 or newer | VS code or terminal to run Expo | Download or clone: Code Repo | Option 1 (Recommended) - Use your phone to emulate . | Expo mobile app (Android, Apple) | . | Option 2 - Emulate using a simulator . | A mobile device simulator for iOS or Android (See below) . Mac . | Xcode (Latest Version) | iOS Simulator (How to add simulators to ios) | . Windows . | Android Studio (Latest Version) | Android Simulator (How to add virtual android device) | . | . | . Install and Launch . Install dependencies. First ensure that you are in the frontend directory of the project. root/workoutApp/frontend . Run in the terminal: . npm install . Option 1: Run the app using expo. Scan the QR code from the terminal. npm run start . Option 2: Run using expo and an emulator on your machine . npm run ios . npm run android . ",
+    "url": "/installation.html#run-with-expo-developer-experience-recommended",
+    
+    "relUrl": "/installation.html#run-with-expo-developer-experience-recommended"
+  },"20": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": " ",
+    "url": "/installation.html",
+    
+    "relUrl": "/installation.html"
+  },"21": {
+    "doc": "User Guide",
+    "title": "User Guide",
+    "content": "Getting Started . Navigation . Basic Tasks . Advanced Features . ",
+    "url": "/user_guide.html",
+    
+    "relUrl": "/user_guide.html"
+  }
+}
